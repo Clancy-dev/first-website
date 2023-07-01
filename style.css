@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    z-index: 1;
+}
+section{
+    min-height: 100vh;
+}
+.section-1{
+    background: linear-gradient(to right, darkblue,rgba(255, 255, 255, 0)), url(cover2.jpg) ;
+    background-size: cover;
+    margin-top: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 90px;
+    position: relative;
+    
+}
+.socials:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+.facebook{
+    width: 50px;
+    height: 50px;
+}
+.facebook:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+.twitter{
+    width: 50px;
+    height: 50px;
+}
+.twitter:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+.youtube{
+    width: 50px;
+    height: 50px;
+}
+.youtube:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+   
+.whatsapp{
+    width: 50px;
+    height: 50px;
+}
+.whatsapp:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
+.left-1{
+    width: 650px;
+    height: 400px;
+    color: white;
+   
+}
+.rex{
+    margin: 1rem;
+}
+.buttons-1{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;
+}
+.right{
+    display: flex;
+}
+.button-1{
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: blue;
+    width: 130px;
+    height: 60px;
+}
+.button-2{
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color:  rgb(2, 2, 63);
+    width: 130px;
+    height: 60px;
+}
+.p-one{
+    font-size: 3rem;
+}
+.p-one-one{
+    display: flex;
+    font-size: 3rem;
+}
+.p-one-one-one{
+    font-size: 3rem;
+}
+header div a{
+    text-decoration: none;
+    color: rgb(7, 7, 116);
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-weight: 300;
+
+}
+.left{
+    font-size: 3rem;
+}
+.right{
+    margin-left: 45rem;
+}
+.section-2{
+    background-color: blue;
+    position: relative;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+a:hover{
+    color: green;
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+.section-3{
+    background:linear-gradient(to left, rgba(0, 128, 0, 0.801),rgba(255, 255, 255, 0)),url(cover3.jpg);
+    background-size: cover;
+    display: flex;
+    gap: 5rem;
+    color: aqua;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.service-buttons:hover{
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+.service-buttons{
+    padding: 5px 28px;
+    border-radius: 15px;
+    color: white;
+    background-color: green;
+    width: 130px;
+    height: 60px;
+    font-size: 18px;
+    margin-left: 2rem;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.title-3{
+    font-size: 2rem;
+}
+.subtitle-3{
+    font-size: 3rem;
+}
+.buttons-3{
+    display: flex;
+}
+.section-4{
+    background: url(cover4.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem;
+    color: white;
+
+}
+.container{
+    width: 1300px;
+    height: 400px;
+    gap: 2rem;
+    display: flex;
+    font-size: 1.4rem;
+}
+.left-4{
+    display: flex;
+    width: 47%;
+    height: 100%;
+    box-shadow: 1px 1px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    gap: 1rem;
+    background-color: rgba(135, 207, 235, 0.486);
+
+}
+.cards{
+    display: flex;
+    gap: 2rem;
+}
+.right-4:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.left-4:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.left{
+    display: flex;
+}
+img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.right-4{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;  
+    width: 47%;
+    height: 100%;
+    gap: 2rem;
+    box-shadow: 1px 1px 5px 10px  rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    background-color: rgba(135, 207, 235, 0.486);
+
+
+
+}
+.followers{
+    display: flex;
+}
